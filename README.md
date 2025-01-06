@@ -5,8 +5,8 @@
 <div align="center">
 
 Set the visor texture of the Create: Big Cannons gas mask to transparent, allowing for clear vision while wearing it.
-![image](https://github.com/user-attachments/assets/7d3e575c-bb92-4276-951f-bec424cb7234)
 
+![beforeafter](https://github.com/user-attachments/assets/207e30f1-5f8d-4820-86b8-a5911e7dc6e0)
 
   Want me to add more textures that are similar to this? Create a Github issue, and I'll get right on it.
 
