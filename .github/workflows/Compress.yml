@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4, xresloader/upload-to-github-release@v1.6.0
-
+        uses: actions/checkout@v4
 
       - name: Compress Directory
         uses: somaz94/compress-decompress@v1
@@ -31,9 +30,3 @@ jobs:
           file: "./src/CreateBigCannons-ClearGlass.zip"
           tags: false
           draft: false
-
-
-              
-
-
-            
