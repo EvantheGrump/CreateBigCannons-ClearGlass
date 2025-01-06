@@ -1,6 +1,14 @@
-# CreateBigCannons-ClearGlass
+<div align="center">
 
+# Create Big Cannons: Clear Glass
 
+</div>
+
+<div align="center">
+
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/1ft9XWRu?style=for-the-badge&logo=modrinth&logoColor=1ft9XWRu&color=1BD96A)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/EvantheGrump/CreateBigCannons-ClearGlass/total?style=for-the-badge&logo=github&logoColor=black&logoSize=auto&color=1BD96A)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
 
 <div align="center">
 
