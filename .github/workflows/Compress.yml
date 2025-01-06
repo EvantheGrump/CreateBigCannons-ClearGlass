@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4, xresloader/upload-to-github-release@v1.6.0
+
 
       - name: Compress Directory
         uses: somaz94/compress-decompress@v1
@@ -18,9 +19,21 @@ jobs:
           source: ./src
           format: zip
           includeRoot: 'false'
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      
+      - name: Rename file 
+        run: mv ./src/src.zip ./src/CreateBigCannons-ClearGlass.zip
+      
+      - name: Upload to Release
+        uses: xresloader/upload-to-github-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: CreateBigCannons-ClearGlass.zip
-          path: ./src/src.zip
+          file: "./src/CreateBigCannons-ClearGlass.zip"
+          tags: false
+          draft: false
+
+
+              
+
+
+            
