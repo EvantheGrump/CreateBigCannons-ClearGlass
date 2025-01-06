@@ -22,11 +22,9 @@ jobs:
       - name: Rename file 
         run: mv ./src/src.zip ./src/CreateBigCannons-ClearGlass.zip
       
-      - name: Upload to Release
-        uses: xresloader/upload-to-github-release@v1
+      - name: Upload to release
+        uses: JasonEtco/upload-to-release@master
+        with:
+          args: ./src/CreateBigCannons-ClearGlass.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          file: "./src/CreateBigCannons-ClearGlass.zip"
-          tags: false
-          draft: false
