@@ -1,6 +1,6 @@
 name: Texture Request
 description: Request a texture to be added to the pack
-title: "[TR] <title>"
+title: "[TR] 'Your Title'"
 labels: ["Texture Request"]
 body:
 - type: textarea
