@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CreateBigCannons-ClearGlass.zip
-          path: ./src.zip
+          path: ./src/src.zip
