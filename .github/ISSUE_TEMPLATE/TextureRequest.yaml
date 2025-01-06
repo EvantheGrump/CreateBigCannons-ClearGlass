@@ -1,7 +1,7 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: ["Bug", "Needs Triage"]
+name: Texture Request
+description: Request a texture to be added to the pack
+title: "[TR] <title>"
+labels: ["Texture Request"]
 body:
 - type: textarea
   attributes:
