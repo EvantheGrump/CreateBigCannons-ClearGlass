@@ -1,0 +1,17 @@
+name: 🐞 Bug
+description: File a bug/issue
+title: "[BUG] <title>"
+labels: ["Bug", "Needs Triage"]
+body:
+- type: textarea
+  attributes:
+    label: Texture
+    description: What texture modification would you like to have added?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Mod
+    description: What mod does the texture you want to have modified come from?
+  validations:
+    required: true
