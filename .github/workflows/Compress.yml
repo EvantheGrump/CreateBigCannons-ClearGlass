@@ -21,10 +21,14 @@ jobs:
       
       - name: Rename file 
         run: mv ./src/src.zip ./src/CreateBigCannons-ClearGlass.zip
-      
-      - name: Upload to release
-        uses: JasonEtco/upload-to-release@master
+
+      - name: Upload to Release
+        uses: Shopify/upload-to-release@v2.0.0
         with:
-          args: ./src/CreateBigCannons-ClearGlass.zip application/zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Artifact name
+          name: CreateBigCannons-ClearGlass.zip
+          # Path to the file to upload
+          path: ./src/CreateBigCannons-ClearGlass.zip
+          # Content type for the file
+          content-type: application/zip
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
