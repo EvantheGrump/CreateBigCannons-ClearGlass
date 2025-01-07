@@ -53,7 +53,7 @@ jobs:
           # The type of this release. Allowed values: "alpha", "beta", "release"
           release_type: release
           # The mod loaders that this version supports. Separate with "," (no quotes)
-          loaders: "Resource Pack"
+          loaders: "resourcepack"
           # Whether the version is featured or not
           featured: true
           # Project ID to upload file to. You can get the ID from the sidebar on a project page under "Technical Information"
